@@ -22,16 +22,35 @@ img {
 	border-color: grey;
 	border-width: 3px;
 	border-style: dotted;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 300px;
+	margin-right: 300px;
 	background-image: url(ClanCastle.png); 
 	/*float: left;*/
 	background-size: 900px 525px;
-	text-align: center;
+	background-position: center;
+	text-align: left;
+	padding: 30px;
 	/*opacity: 0.6;*/
 }
 
 .clan-mates {
 	text-align: left;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
 	
 }
+
+/*The clear Property
+The clear property is used to control the behavior of floating elements.
+
+Elements after a floating element will flow around it. To avoid this, use the clear property.
+
+The clear property specifies on which sides of an element floating elements are not allowed to float:
+
+Example
+
+div {
+    clear: left;
+}
+*/
