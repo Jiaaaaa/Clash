@@ -24,6 +24,7 @@ img {
 	border-style: dotted;
 	margin-left: 300px;
 	margin-right: 300px;
+	margin-top: 20px;
 	background-image: url(ClanCastle.png); 
 	/*float: left;*/
 	background-size: 900px 525px;
@@ -33,11 +34,15 @@ img {
 	/*opacity: 0.6;*/
 }
 
+.clan-people {
+	text-align: right;
+	
+}
+
 .clan-mates {
 	text-align: left;
 	float: left;
-	margin-left: auto;
-	margin-right: auto;
+
 	
 }
 
