@@ -17,34 +17,44 @@ img {
 }
 
 .about-us {
-	
 	padding-bottom: 20px;
 	border-color: grey;
 	border-width: 3px;
 	border-style: dotted;
 	margin-left: 300px;
 	margin-right: 300px;
-	margin-top: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	background-image: url(ClanCastle.png); 
 	/*float: left;*/
 	background-size: 900px 525px;
 	background-position: center;
 	text-align: left;
 	padding: 30px;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-content: flex-start;
+	align-self: flex-start;
+	grid-row-align: start;
 	/*opacity: 0.6;*/
 }
 
 .clan-people {
 	text-align: right;
-	
 }
 
-.clan-mates {
-	text-align: left;
-	float: left;
 
-	
-}
+/*.about-us {
+	-webkit-column-count: 2; 
+    -moz-column-count: 150px 2;
+    column-count: 150px 2;
+
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+} */
 
 /*The clear Property
 The clear property is used to control the behavior of floating elements.
