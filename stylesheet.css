@@ -1,8 +1,8 @@
 
 body {
 	width: 100%;
-	margin-top: 75px;
-	text-align: center;
+	margin-top: 76px;
+	/* text-align: center; */
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: peachpuff;
 }
@@ -11,26 +11,61 @@ img {
 	display: block;
 	border-style: solid;
 	border-color: grey;
-	padding: 2px;
+	padding: 1px;
 	margin-right: auto;
 	margin-left: auto;
 }
+
+/*.about-us {
+	display: webkit-box;
+	display: moz-box;
+	display: ms-flexbox;
+	display: webkit-flex;
+	display: flex;
+	-webkit-box-direction: normal;
+	-moz-box-direction: normal;
+	-webkit-box-orient: vertical;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-box-pack: start;
+	-moz-box-pack: start;
+	-webkit-justify-content: flex-start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-align-content: stretch;
+	-ms-flex-line-pack: stretch;
+	align-content: stretch;
+	-webkit-box-align: start;
+	-moz-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	height: 50%;
+	background-image: url(ClanCastle.png);
+	background-size: 900px 525px;
+	background-postion: center;
+
+}*/
 
 .about-us {
 	padding-bottom: 20px;
 	border-color: grey;
 	border-width: 3px;
 	border-style: dotted;
-	margin-left: 300px;
-	margin-right: 300px;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	/* margin-left: 300px; */
+	/* margin-right: 300px; */
+	/* margin-top: 30px; */
+	/* margin-bottom: 30px; */
 	background-image: url(ClanCastle.png); 
-	/*float: left;*/
-	background-size: 900px 525px;
+	/* float: left; */
+	/* background-size: 900px 525px; */
 	background-position: center;
 	text-align: left;
-	padding: 30px;
+	/* padding: 30px; */
 	display: inline-flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -39,10 +74,12 @@ img {
 	align-self: flex-start;
 	grid-row-align: start;
 	/*opacity: 0.6;*/
+	
 }
 
 .clan-people {
 	text-align: right;
+	
 }
 
 
@@ -69,3 +106,21 @@ div {
     clear: left;
 }
 */
+
+.container {
+	display: flex;
+	flex-direction: row;
+}
+
+.item{
+	flex-basis: 25%
+}
+
+.item2 {
+	flex-basis:50%;
+}
+
+.cc {
+	background-image: url(ClanCastle.png);
+	height :500px;
+}
